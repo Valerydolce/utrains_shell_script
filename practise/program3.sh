@@ -12,6 +12,7 @@
 cat /etc/shadow
 
 STATUS=$? #Variable that contain the status code for preview command
+
 if [ STATUS == 0 ]
 then
     echo "Command Executed!"
